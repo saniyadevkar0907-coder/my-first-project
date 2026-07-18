@@ -1,0 +1,10 @@
+#declare two variables to store 0 and 1
+a=0
+b=1
+n=int(input("Enter a Number to find the Fibonacci series"))
+print(a)
+# using for loop 
+for i in range (n-1):
+    a,b=b,a+b
+# print the result
+    print(a)
