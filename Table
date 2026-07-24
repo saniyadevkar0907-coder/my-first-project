@@ -1,0 +1,23 @@
+#include<iostream>    
+using namespace std;   
+int main() {
+    // Variable to store the number entered by the user
+    int n; 
+    // Variable to store the multiplication result
+    int table;         
+    // Ask the user to enter a number
+    cout << "Enter a number: ";
+    // Read the number from the user
+    cin >> n;                   
+    // Loop counter
+    int i;           
+
+    // Loop from 1 to 10 to generate the multiplication table
+    for(i = 1; i <= 10; i++) {
+          // Calculate the multiplication result
+          table = i * n;  
+         // Display the multiplication table in the format: n * i = result
+          cout << n << " * " << i << " = " << table << endl;
+    }
+  return 0;  
+}
